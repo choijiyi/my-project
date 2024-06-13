@@ -1,0 +1,78 @@
+@import 'https://fonts.googleapis.com/css2?family=Bungee&display=swap';
+@import 'https://use.typekit.net/rvx4teh.css';
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.prompt {
+  margin-top: 300px;
+
+  &_box {
+    width: 590px;
+    padding-block: 40px;
+    padding-inline: 47px;
+    margin-inline: auto;
+    background-color: #000;
+    border: 3px solid #00fb2c;
+  }
+
+  &_title {
+    min-width: 490px;
+    max-width: 490px;
+    font-family: Bungee, sans-serif;
+    font-size: 40px;
+    color: #00fb2c;
+  }
+
+  &_input {
+    min-width: 490px;
+    max-width: 490px;
+    margin-top: 30px;
+    font-family: 'timeline-210', sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+  }
+
+  input {
+    padding: 0;
+    padding: 10px;
+    margin-inline: auto;
+    color: #00fb2c;
+    background-color: rgba($color: #00fb2c, $alpha: 30%);
+    border: 0;
+
+    &:focus {
+      outline: none;
+    }
+
+    &::placeholder {
+      color: rgba($color: #00fb2c, $alpha: 30%);
+    }
+  }
+
+  &_button {
+    text-align: right;
+  }
+
+  button {
+    padding: 0;
+    padding-block: 5px;
+    padding-inline: 12px;
+    margin-top: 16px;
+    font-family: 'timeline-210', sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    background-color: #00fb2c;
+    border: 0;
+    border-radius: 3px;
+
+    &:hover {
+      background-color: rgba($color: #00fb2c, $alpha: 80%);
+    }
+  }
+}
