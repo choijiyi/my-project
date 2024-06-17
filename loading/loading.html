@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>쓸데없는게 만들고 싶었어요</title>
+    <link rel="stylesheet" href="../style/loading.css" />
+    <link rel="stylesheet" href="../style/body.css" />
+    <script>
+      (function (d) {
+        var config = {
+            kitId: 'yzy0ruk',
+            scriptTimeout: 3000,
+            async: true,
+          },
+          h = d.documentElement,
+          t = setTimeout(function () {
+            h.className =
+              h.className.replace(/\bwf-loading\b/g, '') + ' wf-inactive';
+          }, config.scriptTimeout),
+          tk = d.createElement('script'),
+          f = false,
+          s = d.getElementsByTagName('script')[0],
+          a;
+        h.className += ' wf-loading';
+        tk.src = 'https://use.typekit.net/' + config.kitId + '.js';
+        tk.async = true;
+        tk.onload = tk.onreadystatechange = function () {
+          a = this.readyState;
+          if (f || (a && a != 'complete' && a != 'loaded')) return;
+          f = true;
+          clearTimeout(t);
+          try {
+            Typekit.load(config);
+          } catch (e) {}
+        };
+        s.parentNode.insertBefore(tk, s);
+      })(document);
+    </script>
+  </head>
+  <body>
+    <div class="loading grid">
+      <div class="loading_wrap">
+        <div class="loading_wrap_box grid">
+          <div class="loading_wrap_box_fill_1"></div>
+          <div class="loading_wrap_box_fill_2"></div>
+          <div class="loading_wrap_box_fill_3"></div>
+          <div class="loading_wrap_box_fill_4"></div>
+          <div class="loading_wrap_box_fill_5"></div>
+          <div class="loading_wrap_box_fill_6"></div>
+          <div class="loading_wrap_box_fill_7"></div>
+          <div class="loading_wrap_box_fill_8"></div>
+          <div class="loading_wrap_box_fill_9"></div>
+          <div class="loading_wrap_box_fill_10"></div>
+        </div>
+        <div class="loading_loadingtext">
+          <div class="loading_loadingtext_1">L</div>
+          <div class="loading_loadingtext_2">o</div>
+          <div class="loading_loadingtext_3">a</div>
+          <div class="loading_loadingtext_4">d</div>
+          <div class="loading_loadingtext_5">i</div>
+          <div class="loading_loadingtext_6">n</div>
+          <div class="loading_loadingtext_7">g</div>
+          <div class="loading_loadingtext_8">.</div>
+          <div class="loading_loadingtext_9">.</div>
+          <div class="loading_loadingtext_10">.</div>
+          <a class="loading_loadingtext_11" href="../main/main.html">→</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

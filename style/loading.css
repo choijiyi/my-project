@@ -1,0 +1,219 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.loading {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  min-height: 100svh;
+}
+.loading_wrap {
+  display: grid;
+  grid-template-rows: 2fr 0.5fr 2fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-row: 2;
+  grid-column: 2;
+}
+.loading_wrap_box {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-row: 2;
+  grid-column: 2;
+  min-width: 460px;
+  aspect-ratio: 460/30;
+  margin-block: auto;
+  margin-inline: auto;
+  border: 3px solid #00fb2c;
+}
+.loading_wrap_box_fill_1 {
+  grid-column: 1;
+  margin-block: 4px;
+  margin-right: 2px;
+  margin-left: 4px;
+  animation: loading-bar 1s;
+  animation-fill-mode: forwards;
+}
+.loading_wrap_box_fill_2 {
+  grid-column: 2;
+  margin-block: 4px;
+  margin-inline: 2px;
+  animation: loading-bar 1.5s;
+  animation-fill-mode: forwards;
+}
+.loading_wrap_box_fill_3 {
+  grid-column: 3;
+  margin-block: 4px;
+  margin-inline: 2px;
+  animation: loading-bar 2s;
+  animation-fill-mode: forwards;
+}
+.loading_wrap_box_fill_4 {
+  grid-column: 4;
+  margin-block: 4px;
+  margin-inline: 2px;
+  animation: loading-bar 2.5s;
+  animation-fill-mode: forwards;
+}
+.loading_wrap_box_fill_5 {
+  grid-column: 5;
+  margin-block: 4px;
+  margin-inline: 2px;
+  animation: loading-bar 3s;
+  animation-fill-mode: forwards;
+}
+.loading_wrap_box_fill_6 {
+  grid-column: 6;
+  margin-block: 4px;
+  margin-inline: 2px;
+  animation: loading-bar 3.5s;
+  animation-fill-mode: forwards;
+}
+.loading_wrap_box_fill_7 {
+  grid-column: 7;
+  margin-block: 4px;
+  margin-inline: 2px;
+  animation: loading-bar 4s;
+  animation-fill-mode: forwards;
+}
+.loading_wrap_box_fill_8 {
+  grid-column: 8;
+  margin-block: 4px;
+  margin-inline: 2px;
+  animation: loading-bar 4.5s;
+  animation-fill-mode: forwards;
+}
+.loading_wrap_box_fill_9 {
+  grid-column: 9;
+  margin-block: 4px;
+  margin-inline: 2px;
+  animation: loading-bar 5s;
+  animation-fill-mode: forwards;
+}
+.loading_wrap_box_fill_10 {
+  grid-column: 10;
+  margin-block: 4px;
+  margin-right: 4px;
+  margin-left: 2px;
+  animation: loading-bar 5.5s;
+  animation-fill-mode: forwards;
+}
+.loading_loadingtext {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-row: 3;
+  grid-column: 2;
+  margin-inline: 100px;
+  font-family: orbitron, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+}
+.loading_loadingtext_1 {
+  grid-column: 1;
+  margin-inline: auto;
+  font-size: 40px;
+  color: #00fb2c;
+  animation: loading-text 1s;
+  animation-fill-mode: forwards;
+}
+.loading_loadingtext_2 {
+  grid-column: 2;
+  margin-inline: auto;
+  font-size: 40px;
+  color: #00fb2c;
+  animation: loading-text 1.5s;
+  animation-fill-mode: forwards;
+}
+.loading_loadingtext_3 {
+  grid-column: 3;
+  margin-inline: auto;
+  font-size: 40px;
+  color: #00fb2c;
+  animation: loading-text 2s;
+  animation-fill-mode: forwards;
+}
+.loading_loadingtext_4 {
+  grid-column: 4;
+  margin-inline: auto;
+  font-size: 40px;
+  color: #00fb2c;
+  animation: loading-text 2.5s;
+  animation-fill-mode: forwards;
+}
+.loading_loadingtext_5 {
+  grid-column: 5;
+  margin-inline: auto;
+  font-size: 40px;
+  color: #00fb2c;
+  animation: loading-text 3s;
+  animation-fill-mode: forwards;
+}
+.loading_loadingtext_6 {
+  grid-column: 6;
+  margin-inline: auto;
+  font-size: 40px;
+  color: #00fb2c;
+  animation: loading-text 3.5s;
+  animation-fill-mode: forwards;
+}
+.loading_loadingtext_7 {
+  grid-column: 7;
+  margin-inline: auto;
+  font-size: 40px;
+  color: #00fb2c;
+  animation: loading-text 4s;
+  animation-fill-mode: forwards;
+}
+.loading_loadingtext_8 {
+  grid-column: 8;
+  margin-inline: auto;
+  font-size: 40px;
+  color: #00fb2c;
+  animation: loading-text 4.5s;
+  animation-fill-mode: forwards;
+}
+.loading_loadingtext_9 {
+  grid-column: 9;
+  margin-inline: auto;
+  font-size: 40px;
+  color: #00fb2c;
+  animation: loading-text 5s;
+  animation-fill-mode: forwards;
+}
+.loading_loadingtext_10 {
+  grid-column: 10;
+  margin-inline: auto;
+  font-size: 40px;
+  color: #00fb2c;
+  animation: loading-text 5.5s;
+  animation-fill-mode: forwards;
+}
+.loading_loadingtext_11 {
+  grid-column: 11;
+  margin-inline: auto;
+  font-size: 40px;
+  color: #00fb2c;
+  text-decoration: none;
+  cursor: pointer;
+  animation: loading-text 5.5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes loading-bar {
+  0% {
+    background-color: #000;
+  }
+  100% {
+    background-color: #00fb2c;
+  }
+}
+@keyframes loading-text {
+  0% {
+    color: #000;
+  }
+  100% {
+    color: #00fb2c;
+  }
+}
