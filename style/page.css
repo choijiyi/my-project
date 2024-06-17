@@ -1,0 +1,120 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000;
+}
+
+.loading {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  min-height: 100svh;
+}
+.loading_wrap {
+  display: grid;
+  grid-template-rows: 2fr 0.5fr 2fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-row: 2;
+  grid-column: 2;
+}
+.loading_wrap_box {
+  grid-row: 2;
+  grid-column: 2;
+  min-width: 460px;
+  aspect-ratio: 460/30;
+  margin-block: auto;
+  margin-inline: auto;
+  border: 3px solid #00fb2c;
+}
+.loading_wrap_percent_0 {
+  grid-row: 3;
+  grid-column: 2;
+  margin-top: 10px;
+  margin-left: 440px;
+  color: #00fb2c;
+  text-align: right;
+}
+.loading_wrap_percent_1 {
+  grid-row: 3;
+  grid-column: 2;
+  margin-top: 10px;
+  margin-left: 440px;
+  color: #00fb2c;
+  text-align: right;
+}
+.loading_wrap_percent_2 {
+  grid-row: 3;
+  grid-column: 2;
+  margin-top: 10px;
+  margin-left: 440px;
+  color: #00fb2c;
+  text-align: right;
+}
+.loading_wrap_percent_3 {
+  grid-row: 3;
+  grid-column: 2;
+  margin-top: 10px;
+  margin-left: 440px;
+  color: #00fb2c;
+  text-align: right;
+}
+.loading_wrap_percent_4 {
+  grid-row: 3;
+  grid-column: 2;
+  margin-top: 10px;
+  margin-left: 440px;
+  color: #00fb2c;
+  text-align: right;
+}
+.loading_wrap_percent_5 {
+  grid-row: 3;
+  grid-column: 2;
+  margin-top: 10px;
+  margin-left: 440px;
+  color: #00fb2c;
+  text-align: right;
+}
+.loading_wrap_percent_6 {
+  grid-row: 3;
+  grid-column: 2;
+  margin-top: 10px;
+  margin-left: 440px;
+  color: #00fb2c;
+  text-align: right;
+}
+.loading_wrap_percent_7 {
+  grid-row: 3;
+  grid-column: 2;
+  margin-top: 10px;
+  margin-left: 440px;
+  color: #00fb2c;
+  text-align: right;
+}
+.loading_wrap_percent_8 {
+  grid-row: 3;
+  grid-column: 2;
+  margin-top: 10px;
+  margin-left: 440px;
+  color: #00fb2c;
+  text-align: right;
+}
+.loading_wrap_percent_9 {
+  grid-row: 3;
+  grid-column: 2;
+  margin-top: 10px;
+  margin-left: 440px;
+  color: #00fb2c;
+  text-align: right;
+}
+.loading_wrap_percent_10 {
+  grid-row: 3;
+  grid-column: 2;
+  margin-top: 10px;
+  margin-left: 440px;
+  color: #00fb2c;
+  text-align: right;
+}
